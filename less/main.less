@@ -4,6 +4,11 @@ body, html {
   height: 100vh;
   font-family: roboto;
 }
+/*Mix In*/
+.upper {
+  text-transform: uppercase;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.33)), url("../img/banner-bg.png");
   backgound-color: #3B3838;
@@ -16,24 +21,22 @@ body, html {
 nav {
   height: 100px;
   background-color: @yellow;
-}
-li {
-  list-style-type: none;
-  font-size: 18px;
-  color: #050500;
-  font-weight: 500;
+  ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #050500;
+    font-weight: 500;
     .red {
-    color: @red;
-  }
-    .upper {
-    text-transform: uppercase;
+      color: @red;
+      .upper();
+    }
   }
 }
 h1 {
   font-size: 30px;
   color: #050500;
   font-weight: 500;
-  text-transform: uppercase;
+  .upper();
   .red {
     color: @red;
   }
