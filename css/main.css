@@ -13,21 +13,39 @@ html {
   background-repeat: no-repeat;
   position: relative;
 }
+li {
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+}
+li .red {
+  color: #ee252f;
+}
+li .upper {
+  text-transform: uppercase;
+}
 h1 {
   font-size: 30px;
   color: #050500;
   font-weight: 500;
   text-transform: uppercase;
 }
-span {
+h1 .red {
   color: #ee252f;
 }
-h3 {
-  font-size: 30px;
-  color: #050500;
-  font-weight: 500;
+h1 .lower {
+  text-transform: none;
 }
 p {
   font-size: 16px;
   color: #050500;
+  font-weight: 400;
+}
+button {
+  font-size: 18px;
+  color: #050500;
+  background-color: #f8df1f;
+  font-weight: 500;
+  border-radius: 8px;
+  text-transform: uppercase;
 }
