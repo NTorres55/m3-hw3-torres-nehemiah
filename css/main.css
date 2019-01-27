@@ -1,6 +1,7 @@
 body,
 html {
   height: 100vh;
+  font-family: roboto;
 }
 .hero-image {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.33))), url("../img/banner-bg.png");
@@ -11,4 +12,22 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+h1 {
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+span {
+  color: #ee252f;
+}
+h3 {
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
+}
+p {
+  font-size: 16px;
+  color: #050500;
 }
