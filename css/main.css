@@ -1,0 +1,14 @@
+body,
+html {
+  height: 100vh;
+}
+.hero-image {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.33))), url("../img/banner-bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.33)), url("../img/banner-bg.png");
+  backgound-color: #3B3838;
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
