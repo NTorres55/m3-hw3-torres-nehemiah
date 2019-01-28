@@ -16,6 +16,11 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  img {
+    @media (max-width: 470px) {
+      width: 90%;
+      }
+    }
 }
 header {
   background-color: #3B3838;
@@ -72,6 +77,14 @@ button {
 }
 
 footer {
-  height: 200px;
+  height: 250px;
   background-color: @black;
+  border-top: @yellow solid 15px;
+  img {
+    position: ;
+    bottom: 35px;
+    @media (max-width: 470px) {
+      width: 90%;
+    }
+  }
 }
