@@ -3,14 +3,12 @@ html {
   height: 100vh;
   font-family: roboto;
 }
-/*Mix In*/
 .upper {
   text-transform: uppercase;
 }
 .hero-image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.33))), url("../img/banner-bg.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.33)), url("../img/banner-bg.png");
-  backgound-color: #3B3838;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(56, 59, 59, 0.33))), url("../img/banner-bg.png");
+  background-image: linear-gradient(rgba(56, 59, 59, 0.33)), url("../img/banner-bg.png");
   height: 65%;
   background-position: center;
   background-size: cover;
